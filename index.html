@@ -40,6 +40,11 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/main.min.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
         <title>I'm Danial</title>
     </head>
 
@@ -66,7 +71,11 @@
                 <h1 class="heading-1">I'm Danial.</h1>
                 <p class="header__contents--text">A Long Life Learner.</p>
             </div>
-            <figure class="header__picture hidden">
+            <figure
+                class="header__picture"
+                data-aos="slide-up"
+                data-aos-duration="13000"
+            >
                 <img
                     src="./img/mountain.png"
                     alt="Pic 1"
@@ -83,10 +92,14 @@
 
         <!-- Main -->
         <main class="main">
-            <figure class="main__profile hidden">
+            <figure
+                class="main__profile"
+                data-aos="zoom-in"
+                data-aos-duration="4000"
+            >
                 <img
                     src="img/dn.jpeg"
-                    class="main__profile-pic"
+                    class="main__profile-pic medium"
                     alt="Danial's image"
                 />
                 <figcaption class="main__profile-caption">
@@ -95,12 +108,12 @@
             </figure>
             <div class="main__contents">
                 <h2 class="heading-2">Hi there!</h2>
-                <p class="main__intro">
-                    I have been studing about Computer Software Enginnering
+                <blockquote class="main__intro">
+                    "I have been studing about Computer Software Enginnering
                     since I got attracted to it and I have to say beside my
                     major I am in a fond of Acting and Voice Acting... I am
-                    passionate about my job with ❤️
-                </p>
+                    passionate about my job with ❤️"
+                </blockquote>
             </div>
         </main>
 
@@ -142,6 +155,8 @@
             <a
                 href="mailto:nazemi.danial@gmail.com?Subject=Hello%20Danial"
                 class="btn"
+                data-aos="zoom-in"
+                data-aos-duration="4000"
                 >Contact me</a
             >
         </section>
@@ -213,6 +228,7 @@
             <small> &copy; All rights reserved, by Danial Nazemi </small>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/app.min.js"></script>
     </body>
 </html>
