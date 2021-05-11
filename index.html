@@ -46,12 +46,20 @@
             href="./img/favicon-16x16.png"
         />
         <link rel="manifest" href="./img/site.webmanifest" />
+        <link
+            rel="mask-icon"
+            href="./img/safari-pinned-tab.svg"
+            color="#333333"
+        />
         <link rel="shortcut icon" href="./img/favicon.ico" />
-        <meta name="msapplication-TileColor" content="#00aba9" />
+        <meta name="apple-mobile-web-app-title" content="Dan's Portfolio" />
+        <meta name="application-name" content="Dan's Portfolio" />
+        <meta name="msapplication-TileColor" content="#ffdf83" />
         <meta name="msapplication-config" content="./img/browserconfig.xml" />
         <meta name="theme-color" content="#ffdf83" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css?family=Sacramento|Shadows+Into+Light|Roboto"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/main.min.css" />
@@ -63,103 +71,224 @@
         <title>Danial Nazemi | Portfolio</title>
     </head>
 
-    <body class="container">
-        <!-- Back To Top -->
-        <button class="backToTop">☝️</button>
-        <!-- Navigation -->
-        <nav class="navigation mt-medium mb-medium">
-            <ul class="list">
-                <li class="list__items">
-                    <a class="list__links active" href="index.html">Home</a>
-                </li>
-                <li class="list__items">
-                    <a class="list__links" href="html/works.html">Works</a>
-                </li>
-                <li class="list__items">
-                    <a class="list__links" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    <body class="container" id="body">
         <!-- Header -->
         <header class="header">
-            <div class="header__contents">
-                <h1 class="heading-1">I'm Danial.</h1>
-                <p class="header__contents--text">A Long Life Learner.</p>
-            </div>
-            <figure
-                class="header__picture"
-                data-aos="slide-up"
-                data-aos-duration="13000"
+            <!-- Back To Top -->
+            <a href="#body" class="backToTop">☝️</a>
+            <!-- Navigation -->
+            <nav class="navigation mt-medium mb-medium" id="nav">
+                <ul class="list">
+                    <div class="list__container--1">
+                        <li class="list__items">
+                            <a class="list__links active" href="index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="list__items">
+                            <a class="list__links" href="html/about.html"
+                                >About</a
+                            >
+                        </li>
+                        <li class="list__items">
+                            <a class="list__links" href="#contact">Contact</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="list__items list__logo">
+                            <a class="list__links" href="index.html">
+                                <img src="img/dn.png" alt="logo" />
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+            <div
+                class="header__contents"
+                data-aos="fade-up"
+                data-aos-duration="3600"
             >
-                <img
-                    src="./img/mountain.png"
-                    alt="Pic 1"
-                    class="header__picture__mountain"
-                />
-            </figure>
-            <svg class="header__cloud--1">
-                <use xlink:href="img/sprite.svg#icon-cloud2"></use>
-            </svg>
-            <svg class="header__cloud--2">
-                <use xlink:href="img/sprite.svg#icon-cloud2"></use>
-            </svg>
+                <div>
+                    <h1 class="heading-1">I'm Danial!</h1>
+                    <p class="header__contents--text">
+                        A long life learner that does his best to achive
+                        everything he wants.
+                    </p>
+                    <a href="#works" class="btn">See more!</a>
+                </div>
+                <div
+                    data-aos="zoom-in"
+                    data-aos-duration="3600"
+                    class="header__picture--container"
+                >
+                    <figure class="header__picture">
+                        <img
+                            src="./img/illsutration.png"
+                            alt="Pic 1"
+                            class="header__picture"
+                        />
+                    </figure>
+                </div>
+            </div>
         </header>
 
         <!-- Main -->
-        <main class="main">
-            <figure
-                class="main__profile"
-                data-aos="zoom-in"
-                data-aos-duration="4000"
-            >
-                <img
-                    src="img/dn.jpeg"
-                    class="main__profile-pic medium"
-                    alt="Danial's image"
-                />
-                <figcaption class="main__profile-caption">
-                    Danial Nazemi
-                </figcaption>
-            </figure>
-            <div class="main__contents">
-                <h2 class="heading-2">Hi there!</h2>
-                <blockquote class="main__intro">
-                    "I have been studying about Computer Software Enginnering
-                    since I got attracted to it and I have to say beside my
-                    major I am in a fond of Acting and Voice Acting... I am
-                    passionate about my job with ❤️"
-                </blockquote>
-            </div>
-        </main>
+        <main class="main" id="works">
+            <section class="works__section">
+                <h2 class="heading-2">Works</h2>
+                <div
+                    class="work--items"
+                    data-aos="fade-up"
+                    data-aos-duration="4000"
+                >
+                    <figure class="main__profile large">
+                        <a
+                            href="https://dribbble.com/shots/14037085-SharpStudy-Mockups"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="https://cdn.dribbble.com/users/4502524/screenshots/14037085/media/b207e95ebd5d4b1767ec98e297ec48fe.png"
+                                class="main__profile-pic large"
+                                alt="Dribble's image"
+                            />
+                            <figcaption class="main__profile-caption">
+                                SharpStudy Mockups
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="main__profile large">
+                        <a
+                            href="https://dribbble.com/shots/13969828-Landing-Page-Desert"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="https://cdn.dribbble.com/users/4502524/screenshots/13969828/media/0cd8b310ec3f2c7b655bd7d54b389923.png"
+                                class="main__profile-pic large"
+                                alt="Dribble's image"
+                            />
+                            <figcaption class="main__profile-caption">
+                                Landing Page Desert
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="main__profile large">
+                        <a
+                            href="https://dribbble.com/shots/12510205-Anti-Racism"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="https://cdn.dribbble.com/users/4502524/screenshots/12510205/media/16b4da1422b4016a79677105906c8e15.png"
+                                class="main__profile-pic large"
+                                alt="Dribble's image"
+                            />
+                            <figcaption class="main__profile-caption">
+                                Anti Racism
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <h3
+                    class="heading-3"
+                    data-aos="fade-up"
+                    data-aos-duration="4000"
+                >
+                    <a
+                        class="default--link"
+                        href="https://dribbble.com/DanialNazemi/shots"
+                        target="__blank"
+                    >
+                        View all of my works!
+                    </a>
+                </h3>
+            </section>
+            <!-- Skills section -->
+            <section class="skills">
+                <h2 class="heading-2">Software and Tools</h2>
+                <div class="skills__container">
+                    <div class="skill">
+                        <svg class="skill__pic icon icon-embed2">
+                            <use xlink:href="img/sprite.svg#icon-embed2"></use>
+                        </svg>
 
-        <!-- Skills section -->
-        <section class="skills">
-            <h2 class="heading-2">My skills</h2>
-            <div class="skill">
-                <img
-                    src="img/freelance.png"
-                    class="skill__pic skill__pic--1"
-                    alt="Image"
-                />
-                <h3 class="heading-3">Design and Development</h3>
-                <p class="skill__programming">
-                    I really like desiging and developing brand new sites which
-                    all people can have a user-friendly experience.
-                </p>
-            </div>
-            <div class="skill">
-                <img
-                    src="img/responsive.png"
-                    class="skill__pic skill__pic--2"
-                    alt="Image"
-                />
-                <h3 class="heading-3">Main Objective</h3>
-                <p class="skill__programming">
-                    Frankly, my main goal is to find people person friends and
-                    team players with vigorous mind.
-                </p>
-            </div>
-        </section>
+                        <h3 class="heading-3">Programming Languages</h3>
+                        <p class="skill__programming">
+                            •HTML •CSS •JS •Bootstrap •ReactJS •SASS •GulpJS ...
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <svg class="skill__pic icon icon-paint-format">
+                            <use
+                                xlink:href="img/sprite.svg#icon-paint-format"
+                            ></use>
+                        </svg>
+                        <h3 class="heading-3">Design Tools</h3>
+                        <p class="skill__programming">
+                            •Figma •Illustrator •XD •After Effect •Photoshop ...
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <svg class="skill__pic icon icon-trophy">
+                            <use xlink:href="img/sprite.svg#icon-trophy"></use>
+                        </svg>
+                        <h3 class="heading-3">Skills</h3>
+                        <p class="skill__programming">
+                            •Software Engineering •UI/UX Design •Voice Acting
+                            •Graphic Design •English Instructor ...
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <svg class="skill__pic icon icon-clipboard">
+                            <use
+                                xlink:href="img/sprite.svg#icon-clipboard"
+                            ></use>
+                        </svg>
+                        <h3 class="heading-3">Research</h3>
+                        <p class="skill__programming">
+                            •Software Engineering •UI/UX Design •Voice Acting
+                            •Graphic Design •English Instructor ...
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <svg class="skill__pic icon icon-accessibility">
+                            <use
+                                xlink:href="img/sprite.svg#icon-accessibility"
+                            ></use>
+                        </svg>
+                        <h3 class="heading-3">Productivity</h3>
+                        <p class="skill__programming">
+                            •Jira •Trello •Miro •Balsamiq Mockups •Google
+                            Analytics
+                        </p>
+                    </div>
+                    <div class="skill">
+                        <svg class="skill__pic icon icon-earth">
+                            <use xlink:href="img/sprite.svg#icon-earth"></use>
+                        </svg>
+                        <h3 class="heading-3">Languages</h3>
+                        <p class="skill__programming">
+                            Persian - Native, English - Full Professional
+                            Proficiency
+                        </p>
+                    </div>
+                </div>
+                <h3
+                    class="heading-3"
+                    data-aos="fade-up"
+                    data-aos-duration="4000"
+                >
+                    <a
+                        class="default--link"
+                        href="./img/Danial Nazemi - Resume.docx"
+                        download
+                    >
+                        Download my CV resume!
+                    </a>
+                </h3>
+            </section>
+        </main>
 
         <!-- Contact section -->
         <section class="cta" id="contact">
@@ -242,7 +371,6 @@
             </ul>
             <small> &copy; All rights reserved, by Danial Nazemi </small>
         </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/app.min.js"></script>
     </body>
