@@ -63,7 +63,7 @@
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/main.min.css" />
@@ -105,7 +105,11 @@
                     </div>
                 </ul>
             </nav>
-            <div class="header__contents">
+            <div
+                class="header__contents"
+                data-aos="fade-up"
+                data-aos-duration="3600"
+            >
                 <div>
                     <h1 class="heading-1">I'm Danial!</h1>
                     <p class="header__contents--text">
@@ -114,7 +118,11 @@
                     </p>
                     <a href="#works" class="btn">See more!</a>
                 </div>
-                <div class="header__picture--container">
+                <div
+                    data-aos="zoom-in"
+                    data-aos-duration="3600"
+                    class="header__picture--container"
+                >
                     <figure class="header__picture">
                         <img
                             src="./img/illsutration.webp"
@@ -131,7 +139,11 @@
         <main class="main" id="works">
             <section class="works__section">
                 <h2 class="heading-2">Works</h2>
-                <div>
+                <div
+                    class="work--items"
+                    data-aos="fade-in"
+                    data-aos-duration="3000"
+                >
                     <figure class="main__profile large">
                         <a
                             href="https://dribbble.com/shots/13969828-Landing-Page-Desert?utm_source=Clipboard_Shot&utm_campaign=DanialNazemi&utm_content=Landing%20Page-Desert&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=DanialNazemi&utm_content=Landing%20Page-Desert&utm_medium=Social_Share"
@@ -187,7 +199,7 @@
                 <h3
                     class="heading-3"
                     data-aos="fade-up"
-                    data-aos-duration="4000"
+                    data-aos-duration="3000"
                 >
                     <a
                         class="default--link"
@@ -294,7 +306,7 @@
                 href="mailto:nazemi.danial@gmail.com?Subject=Hello%20Dear%20Danial!"
                 class="btn"
                 data-aos="zoom-in"
-                data-aos-duration="4000"
+                data-aos-duration="3000"
                 >Contact me</a
             >
         </section>
@@ -365,5 +377,9 @@
             </ul>
             <small> &copy; All rights reserved, by Danial Nazemi </small>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

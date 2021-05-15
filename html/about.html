@@ -63,10 +63,14 @@
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="../css/main.min.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <title>Danial Nazemi | Portfolio</title>
     </head>
 
@@ -104,7 +108,11 @@
                     </div>
                 </ul>
             </nav>
-            <div class="header__contents header__about--contents mt-medium">
+            <div
+                class="header__contents header__about--contents mt-medium"
+                data-aos="fade-in"
+                data-aos-duration="3600"
+            >
                 <div>
                     <h1 class="heading-2">About me:</h1>
                     <p class="header__contents--text">
@@ -272,7 +280,7 @@
                 href="mailto:nazemi.danial@gmail.com?Subject=Hello%20Dear%20Danial!"
                 class="btn"
                 data-aos="zoom-in"
-                data-aos-duration="4000"
+                data-aos-duration="3000"
                 >Contact me</a
             >
         </section>
@@ -345,5 +353,9 @@
             </ul>
             <small> &copy; All rights reserved, by Danial Nazemi </small>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
