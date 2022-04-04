@@ -31,42 +31,45 @@
         <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="./img/apple-touch-icon.webp"
+            href="./resources/img/apple-touch-icon.webp"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="./img/favicon-32x32.webp"
+            href="./resources/img/favicon-32x32.webp"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="./img/favicon-16x16.webp"
+            href="./resources/img/favicon-16x16.webp"
         />
-        <link rel="manifest" href="./img/site.webmanifest" />
+        <link rel="manifest" href="./resources/img/site.webmanifest" />
         <link
             rel="mask-icon"
-            href="./img/safari-pinned-tab.svg"
+            href="./resources/img/safari-pinned-tab.svg"
             color="#333333"
         />
-        <link rel="shortcut icon" href="./img/favicon.ico" />
+        <link rel="shortcut icon" href="./resources/img/favicon.ico" />
         <meta name="apple-mobile-web-app-title" content="Dan's Portfolio" />
         <meta name="application-name" content="Dan's Portfolio" />
         <meta name="msapplication-TileColor" content="#ffdf83" />
-        <meta name="msapplication-config" content="./img/browserconfig.xml" />
+        <meta
+            name="msapplication-config"
+            content="./resources/img/browserconfig.xml"
+        />
         <meta name="theme-color" content="#ffdf83" />
         <meta
             property="og:image"
-            content="https://danialnazemi.github.io/img/sharelink-preview.webp"
+            content="https://danialnazemi.github.io/resources/img/sharelink-preview.jpg"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/main.min.css" />
+        <link rel="stylesheet" href="./resources/css/main.min.css" />
         <link
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
@@ -87,7 +90,7 @@
                             <a class="list__links active" href="./">Home</a>
                         </li>
                         <li class="list__items">
-                            <a class="list__links" href="html/about.html"
+                            <a class="list__links" href="pages/about.html"
                                 >About</a
                             >
                         </li>
@@ -99,7 +102,7 @@
                         <li class="list__items list__logo">
                             <a class="list__links" href="./">
                                 <img
-                                    src="img/dn.webp"
+                                    src="./resources/img/dn.webp"
                                     loading="lazy"
                                     \alt="logo"
                                 />
@@ -128,7 +131,7 @@
                 >
                     <figure class="header__picture">
                         <img
-                            src="./img/illsutration.webp"
+                            src="./resources/img/illsutration.webp"
                             loading="lazy"
                             alt="Pic 1"
                             class="header__picture"
@@ -137,11 +140,10 @@
                 </div>
             </div>
         </header>
-
         <!-- Main -->
         <main class="main" id="works">
             <section class="works__section">
-                <h2 class="heading-2">Works</h2>
+                <h2 class="heading-2">Designs</h2>
                 <div class="work--items">
                     <figure class="main__profile large">
                         <a
@@ -150,7 +152,7 @@
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="./img/desert.webp"
+                                src="./resources/img/desert.webp"
                                 class="main__profile-pic large"
                                 loading="lazy"
                                 alt="Dribble's image"
@@ -167,7 +169,7 @@
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="./img/marketplace.webp"
+                                src="./resources/img/marketplace.webp"
                                 class="main__profile-pic large"
                                 loading="lazy"
                                 alt="Dribble's image"
@@ -184,7 +186,7 @@
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="./img/tibetan.webp"
+                                src="./resources/img/tibetan.webp"
                                 class="main__profile-pic large"
                                 loading="lazy"
                                 alt="Dribble's image"
@@ -201,7 +203,52 @@
                         href="https://dribbble.com/DanialNazemi/shots"
                         target="__blank"
                     >
-                        View all of my works!
+                        View all of my designs!
+                    </a>
+                </h3>
+            </section>
+            <!-- Voices Section -->
+            <section class="works__section voices__section">
+                <h2 class="heading-2">Voices</h2>
+                <div class="work--items">
+                    <div class="audio__player">
+                        <span class="audio__player--title">1. Commercial</span>
+                        <audio controls>
+                            <source
+                                src="../resources/data/Danial Nazemi - Commercial.mp3"
+                                type="audio/mp3"
+                            />
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+                    <div class="audio__player">
+                        <span class="audio__player--title">2. Narration</span>
+                        <audio controls>
+                            <source
+                                src="../resources/data/Danial Nazemi - Narration.mp3"
+                                type="audio/mp3"
+                            />
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+                    <div class="audio__player">
+                        <span class="audio__player--title">3. Monster</span>
+                        <audio controls>
+                            <source
+                                src="../resources/data/Danial Nazemi - Monster.mp3"
+                                type="audio/mp3"
+                            />
+                            Your browser does not support the audio tag.
+                        </audio>
+                    </div>
+                </div>
+                <h3 class="heading-3 mt-high">
+                    <a
+                        class="default--link"
+                        href="https://drive.google.com/drive/folders/1TlBGtudz4f9dinfqYvh-7F6qH_NU1e1K?usp=sharing"
+                        target="__blank"
+                    >
+                        View all of my voices!
                     </a>
                 </h3>
             </section>
@@ -211,7 +258,9 @@
                 <div class="skills__container">
                     <div class="skill">
                         <svg class="skill__pic icon icon-embed2">
-                            <use xlink:href="img/sprite.svg#icon-embed2"></use>
+                            <use
+                                xlink:href="./resources/img/sprite.svg#icon-embed2"
+                            ></use>
                         </svg>
 
                         <h3 class="heading-3">Programming Languages</h3>
@@ -222,7 +271,7 @@
                     <div class="skill">
                         <svg class="skill__pic icon icon-paint-format">
                             <use
-                                xlink:href="img/sprite.svg#icon-paint-format"
+                                xlink:href="./resources/img/sprite.svg#icon-paint-format"
                             ></use>
                         </svg>
                         <h3 class="heading-3">Design Tools</h3>
@@ -233,7 +282,9 @@
                     </div>
                     <div class="skill">
                         <svg class="skill__pic icon icon-trophy">
-                            <use xlink:href="img/sprite.svg#icon-trophy"></use>
+                            <use
+                                xlink:href="./resources/img/sprite.svg#icon-trophy"
+                            ></use>
                         </svg>
                         <h3 class="heading-3">Skills</h3>
                         <p class="skill__programming">
@@ -244,7 +295,7 @@
                     <div class="skill">
                         <svg class="skill__pic icon icon-clipboard">
                             <use
-                                xlink:href="img/sprite.svg#icon-clipboard"
+                                xlink:href="./resources/img/sprite.svg#icon-clipboard"
                             ></use>
                         </svg>
                         <h3 class="heading-3">Research</h3>
@@ -255,7 +306,7 @@
                     <div class="skill">
                         <svg class="skill__pic icon icon-accessibility">
                             <use
-                                xlink:href="img/sprite.svg#icon-accessibility"
+                                xlink:href="./resources/img/sprite.svg#icon-accessibility"
                             ></use>
                         </svg>
                         <h3 class="heading-3">Productivity</h3>
@@ -266,7 +317,9 @@
                     </div>
                     <div class="skill">
                         <svg class="skill__pic icon icon-earth">
-                            <use xlink:href="img/sprite.svg#icon-earth"></use>
+                            <use
+                                xlink:href="./resources/img/sprite.svg#icon-earth"
+                            ></use>
                         </svg>
                         <h3 class="heading-3">Languages</h3>
                         <p class="skill__programming">
@@ -278,7 +331,7 @@
                 <h3 class="heading-3">
                     <a
                         class="default--link"
-                        href="./img/Danial Nazemi - Resume.docx"
+                        href="./resources/data/Danial Nazemi - Resume.docx"
                         download
                     >
                         Download my CV resume!
@@ -312,7 +365,7 @@
                     >
                         <svg class="link__instagram">
                             <use
-                                xlink:href="img/sprite.svg#icon-instagram"
+                                xlink:href="./resources/img/sprite.svg#icon-instagram"
                             ></use>
                         </svg>
                     </a>
@@ -325,7 +378,7 @@
                     >
                         <svg class="link__linkedin">
                             <use
-                                xlink:href="img/sprite.svg#icon-linkedin"
+                                xlink:href="./resources/img/sprite.svg#icon-linkedin"
                             ></use>
                         </svg>
                     </a>
@@ -337,7 +390,9 @@
                         target="_top"
                     >
                         <svg class="link__mail">
-                            <use xlink:href="img/sprite.svg#icon-mail"></use>
+                            <use
+                                xlink:href="./resources/img/sprite.svg#icon-mail"
+                            ></use>
                         </svg>
                     </a>
                 </li>
@@ -349,7 +404,7 @@
                     >
                         <svg class="link__dribbble">
                             <use
-                                xlink:href="img/sprite.svg#icon-dribbble"
+                                xlink:href="./resources/img/sprite.svg#icon-dribbble"
                             ></use>
                         </svg>
                     </a>
@@ -361,7 +416,9 @@
                         target="_blank"
                     >
                         <svg class="link__github">
-                            <use xlink:href="img/sprite.svg#icon-github"></use>
+                            <use
+                                xlink:href="./resources/img/sprite.svg#icon-github"
+                            ></use>
                         </svg>
                     </a>
                 </li>
