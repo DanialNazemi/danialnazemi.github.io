@@ -19,11 +19,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="description"
-            content="The Portfolio of Danial Nazemi, a UI/UX Designer, Product Manager and Voice Actor with Perseverance!"
+            content="The Portfolio of Danial Nazemi, a UI/UX Designer, Product Team Leader and Voice Actor with Perseverance!"
         />
         <meta
             name="keywords"
-            content="danial, nazemi, danial nazemi, Danial, Nazemi, Danial Nazemi, User interface, User experience, UI/UX, UI, UX, ui, ux voice actor, voice acting, web design, graphic design, دانیال ناظمی, websites, product manager, product, مدیر محصول graphics, web development, freelance, developer"
+            content="danial, nazemi, danial nazemi, Danial, Nazemi, Danial Nazemi, User interface, User experience, UI/UX, UI, UX, ui, ux, voice actor, voice acting, web design, graphic design, دانیال ناظمی ,ناظمی ,دانیال, websites, product manager, product, مدیر محصول graphics, web development, freelance, product design, design, lead, team lead"
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Danial Nazemi" />
@@ -60,9 +60,19 @@
             content="./resources/img/browserconfig.xml"
         />
         <meta name="theme-color" content="#ffdf83" />
+        <meta property="og:title" content="Danial Nazemi | Portfolio" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://danialnazemi.github.io/" />
+        <meta property="og:image:type" content="image/webp" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="400" />
+        <meta
+            property="og:image:alt"
+            content="An illustration with a brief introduction of Danial Nazemi"
+        />
         <meta
             property="og:image"
-            content="https://danialnazemi.github.io/resources/img/sharelink-preview.jpg"
+            content="https://danialnazemi.github.io/resources/img/sharelink-preview.webp"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -118,11 +128,11 @@
                 data-aos="fade-up"
                 data-aos-duration="3600"
             >
-                <div>
+                <div class="header__intro">
                     <h1 class="heading-1">I'm Danial!</h1>
                     <p class="header__contents--text">
-                        A long life learner that does his best to achieve
-                        everything he wants.
+                        A long life learner that does his best to fulfill user
+                        needs through innovative design.
                     </p>
                     <a href="#works" class="btn">See more!</a>
                 </div>
@@ -131,16 +141,17 @@
                     data-aos-duration="3600"
                     class="header__picture--container"
                 >
-                    <figure class="header__picture">
-                        <img
-                            src="./resources/img/illsutration.webp"
-                            fetchpriority="high"
-                            width="auto"
-                            height="auto"
-                            alt="Banner-image"
-                            class="header__picture"
-                        />
-                    </figure>
+                    <dotlottie-player
+                        src="https://lottie.host/19c97004-0190-45d8-8cda-4a3d1b47203a/t2WRHBZ53f.lottie"
+                        background="transparent"
+                        speed="1"
+                        style="width: 700px; height: 700px"
+                        direction="1"
+                        playMode="normal"
+                        loop
+                        autoplay
+                        class="header__picture"
+                    ></dotlottie-player>
                 </div>
             </div>
         </header>
@@ -151,12 +162,12 @@
                 <div class="work--items">
                     <figure class="main__profile large">
                         <a
-                            href="https://dribbble.com/shots/23229452-LandLogic-Web-Application"
+                            href="https://dribbble.com/shots/24403488-HCM-Landing-Page"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="./resources/img/webapplandlogic.webp"
+                                src="./resources/img/HCM - Landing Page.webp"
                                 class="main__profile-pic large"
                                 loading="lazy"
                                 width="auto"
@@ -164,18 +175,18 @@
                                 alt="Dribbble's image"
                             />
                             <figcaption class="main__profile-caption">
-                                LandLogic Web App
+                                HCM - Landing Page
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="main__profile large">
                         <a
-                            href="https://dribbble.com/shots/19571570-COBACO-App"
+                            href="https://dribbble.com/shots/24403186-TCPay-Exchange"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="./resources/img/smarthome.webp"
+                                src="./resources/img/TCPay - Exchange.webp"
                                 class="main__profile-pic large"
                                 loading="lazy"
                                 width="auto"
@@ -183,18 +194,18 @@
                                 alt="Dribbble's image"
                             />
                             <figcaption class="main__profile-caption">
-                                COBACO App
+                                TCPay - Exchange
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="main__profile large">
                         <a
-                            href="https://dribbble.com/shots/22844043-ATS-Infographic"
+                            href="https://dribbble.com/shots/24402997-Today-Connect-Messenger"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="./resources/img/infographic.webp"
+                                src="./resources/img/Today Connect - Messenger.webp"
                                 class="main__profile-pic large"
                                 loading="lazy"
                                 width="auto"
@@ -202,7 +213,7 @@
                                 alt="Dribbble's image"
                             />
                             <figcaption class="main__profile-caption">
-                                Infographic
+                                Today Connect - Messenger
                             </figcaption>
                         </a>
                     </figure>
@@ -449,6 +460,10 @@
             <small> &copy; All rights reserved, by Danial Nazemi </small>
         </footer>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+        ></script>
         <script>
             AOS.init();
         </script>
