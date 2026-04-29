@@ -55,7 +55,7 @@ This portfolio is powered by:
 
 I'd love to connect! Find me on:
 
-**[Portfolio](https://danialnazemi.github.io/) • [Dribbble](https://www.dribbble.com/danialnazemi) • [Email](mailto:nazemi.danial@gmail.com?Subject=Hello%20Danial) • [LinkedIn](https://www.linkedin.com/in/danial-nazemi/) • [Instagram](https://www.instagram.com/danial.nazemi/) • [YouTube](https://www.youtube.com/@DanialNazemi/) • [Telegram](https://t.me/danial.nazemi)**
+**[Portfolio](https://danialnazemi.github.io/) • [Dribbble](https://www.dribbble.com/danialnazemi) • [Email](mailto:nazemi.danial@gmail.com?Subject=Hello%20Dear%20Danial%20Nazemi) • [LinkedIn](https://www.linkedin.com/in/danial-nazemi/) • [Instagram](https://www.instagram.com/danial.nazemi/) • [YouTube](https://www.youtube.com/@DanialNazemi/) • [Telegram](https://t.me/DanialNazemi)**
 
 ---
 
